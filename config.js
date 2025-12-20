@@ -8,7 +8,7 @@ module.exports = {
     PREFIX: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂𝐇",
     OWNER_NUMBER : process.env.OWNER_NUMBER || "",  // put only one number
-    SUDO_NUMBERS : process.env.SUDO_NUMBERS || "", // can be multiple numbers separated by commas
+    SUDO_NUMBERS : process.env.SUDO_NUMBERS || "27781242411", // can be multiple numbers separated by commas
     BOT_NAME : process.env.BOT_NAME || '𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃',
     FOOTER : process.env.FOOTER || 'ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ',
     CAPTION : process.env.CAPTION || '©𝟐𝟎𝟐𝟒 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 𝐕𝟓',
@@ -28,7 +28,7 @@ module.exports = {
     ANTICALL : process.env.ANTICALL || 'false', // (decline/true)/block/false
     ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Active. 📵 No Calls Allowed!_*",
     WELCOME_MESSAGE : process.env.WELCOME_MESSAGE || 'false',
-    ANTILINK : process.env.ANTILINK || 'false', // or delete or kick or true
+    ANTILINK : process.env.ANTILINK || 'delete', // or delete or kick or true
     AUTO_LIKE_STATUS : process.env.AUTO_LIKE_STATUS || 'true',
     AUTO_READ_STATUS : process.env.AUTO_READ_STATUS || 'true',
     STATUS_LIKE_EMOJIS : process.env.STATUS_LIKE_EMOJIS || "💛,❤️,💜,🤍,💙",
